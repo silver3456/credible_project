@@ -1,11 +1,11 @@
 package step_implementations;
 
+import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.AfterClass;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -67,6 +67,22 @@ public class BDDLoanPurposeTest {
         String educationLevel = "High school";
         driver.findElement(By.xpath(String.format(COMMON_RADIOBUTTON_PATTERN, educationLevel))).click();
         Thread.sleep(WAIT_TIME);
+    }
+
+    @And("^the user chooses loan purpose (.*)$")
+    public void user_chooses_loan_purpose(String loanPurpose) throws InterruptedException {
+        System.out.println("the user chooses loan purpose");
+        driver.findElement(By.xpath(String.format(COMMON_RADIOBUTTON_PATTERN, loanPurpose))).click();
+        Thread.sleep(WAIT_TIME);
+    }
+
+
+    @And("^the user chooses education level(.*)$")
+    public void user_chooses_education_level(String educationLevel) throws InterruptedException {
+        System.out.println("the user chooses education level");
+        driver.findElement(By.xpath(String.format(COMMON_RADIOBUTTON_PATTERN, educationLevel))).click();
+        Thread.sleep(WAIT_TIME);
+
     }
 
     //    And the user chooses Employment Status
@@ -209,7 +225,7 @@ public class BDDLoanPurposeTest {
         Assert.assertTrue(button.isDisplayed());
     }
 
-    @AfterClass
+    @After
     public void tearDown() {
         if (driver != null)
             driver.quit();
