@@ -1,0 +1,56 @@
+2019-10-31 16:31:06 INFO  LogListener:13 - /nTest started with name: null
+2019-10-31 16:31:06 INFO  LandingPage:18 - Open with url: https://www.credible.com/?vt_disabled=true
+2019-10-31 16:31:09 INFO  LandingPage:25 - Navigate to Loan purpose page
+2019-10-31 16:31:09 INFO  ElementHelper:28 - CLick on element with locator: //*[@data-test-id='product-card-PL']//button
+2019-10-31 16:31:09 INFO  ElementHelper:22 - Clear and set text: 10000 to an element with locator: //*[contains(@placeholder, 'Enter amount')]
+2019-10-31 16:31:10 INFO  ElementHelper:28 - CLick on element with locator: //button[text() = 'Find My Rate']
+2019-10-31 16:31:11 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'Debt consolidation']
+2019-10-31 16:31:12 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'High school']
+2019-10-31 16:31:13 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'Full-time employed']
+2019-10-31 16:31:14 INFO  ElementHelper:22 - Clear and set text: 50000 to an element with locator: //input[@name='employment.incomeYearly']
+2019-10-31 16:31:15 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-10-31 16:31:15 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'Excellent (750+)']
+2019-10-31 16:31:16 INFO  ElementHelper:22 - Clear and set text: Alex to an element with locator: //input[@placeholder='First name']
+2019-10-31 16:31:17 INFO  ElementHelper:22 - Clear and set text: Somov to an element with locator: //input[@placeholder='Last name']
+2019-10-31 16:31:17 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-10-31 16:31:17 INFO  ElementHelper:22 - Clear and set text: 12181986 to an element with locator: //input[@placeholder = 'Date of birth (MM/DD/YYYY)']
+2019-10-31 16:31:18 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-10-31 16:31:18 INFO  ElementHelper:22 - Clear and set text: 2715 Cabrillo Street, San Francisco to an element with locator: //input[@placeholder='Address']
+2019-10-31 16:31:24 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-10-31 16:31:24 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'Rent']
+2019-10-31 16:31:25 INFO  ElementHelper:22 - Clear and set text: 1000 to an element with locator: //input[@placeholder='Monthly housing payment']
+2019-10-31 16:31:26 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-10-31 16:31:26 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'Yes']
+2019-10-31 16:31:27 INFO  ElementHelper:22 - Clear and set text: 111111111 to an element with locator: //input[@placeholder='Social security number']
+2019-10-31 16:31:28 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-10-31 16:31:28 INFO  ElementHelper:22 - Clear and set text: 4156545679 to an element with locator: //input[@placeholder='Phone number']
+2019-10-31 16:31:29 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-10-31 16:31:29 INFO  ElementHelper:22 - Clear and set text: Alex_31_1572564657903@credible.com to an element with locator: //input[@placeholder='Email']
+2019-10-31 16:31:30 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-10-31 16:31:38 ERROR LogListener:25 - Test started with name: null fail
+
+2019-10-31 16:31:38 ERROR LogListener:26 - Test error: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.usa.web.utils.ElementHelper$$Lambda$337/67716006@538b3c88 (tried for 8 second(s) with 500 milliseconds interval)
+2019-12-25 14:29:00 INFO  LogListener:13 - /nTest started with name: null
+2019-12-25 14:29:00 INFO  LandingPage:18 - Open with url: https://www.credible.com/?vt_disabled=true
+2019-12-25 14:29:03 INFO  LandingPage:25 - Navigate to Loan purpose page
+2019-12-25 14:29:03 INFO  ElementHelper:28 - CLick on element with locator: //*[@data-test-id='product-card-PL']//button
+2019-12-25 14:29:03 INFO  ElementHelper:22 - Clear and set text: 10000 to an element with locator: //*[contains(@placeholder, 'Enter amount')]
+2019-12-25 14:29:04 INFO  ElementHelper:28 - CLick on element with locator: //button[text() = 'Find My Rate']
+2019-12-25 14:29:07 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'Debt consolidation']
+2019-12-25 14:29:07 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'High school']
+2019-12-25 14:29:08 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'Full-time employed']
+2019-12-25 14:29:09 INFO  ElementHelper:22 - Clear and set text: 50000 to an element with locator: //input[@name='employment.incomeYearly']
+2019-12-25 14:29:10 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-12-25 14:29:11 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'Excellent (750+)']
+2019-12-25 14:29:11 INFO  ElementHelper:22 - Clear and set text: Alex to an element with locator: //input[@placeholder='First name']
+2019-12-25 14:29:12 INFO  ElementHelper:22 - Clear and set text: Somov to an element with locator: //input[@placeholder='Last name']
+2019-12-25 14:29:13 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-12-25 14:29:13 INFO  ElementHelper:22 - Clear and set text: 12181986 to an element with locator: //input[@placeholder = 'Date of birth (MM/DD/YYYY)']
+2019-12-25 14:29:14 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-12-25 14:29:14 INFO  ElementHelper:22 - Clear and set text: 2715 Cabrillo Street, San Francisco to an element with locator: //input[@placeholder='Address']
+2019-12-25 14:29:20 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-12-25 14:29:20 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'Rent']
+2019-12-25 14:29:21 INFO  ElementHelper:22 - Clear and set text: 1000 to an element with locator: //input[@placeholder='Monthly housing payment']
+2019-12-25 14:29:22 INFO  ElementHelper:28 - CLick on element with locator: //button[text()= 'Continue']
+2019-12-25 14:29:22 INFO  ElementHelper:28 - CLick on element with locator: //span[text() = 'Yes']
+2019-12-25 14:29:23 INFO  ElementHelper:22 - Clear and set text: 111111111 to an element with locator: //input[@placeholder='Social security number']
