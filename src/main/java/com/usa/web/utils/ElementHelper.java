@@ -65,5 +65,6 @@ public class ElementHelper {
     public Boolean isElementClickable(String locator) {
         WebElement element = driver.findElement(getTypeLocator(locator));
         return element != null && element.isEnabled();
+
     }
 }
