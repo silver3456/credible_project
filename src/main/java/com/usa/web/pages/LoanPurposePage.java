@@ -130,7 +130,6 @@ public class LoanPurposePage extends BasePage {
     @Step
     public LoanPurposePage enterEmail(String email) {
         helper.enterText(EMAIL_FIELD, email);
-        helper.clickOnElement(CONTINUE_BUTTON);
         helper.waitPageLoaded();
         return this;
     }

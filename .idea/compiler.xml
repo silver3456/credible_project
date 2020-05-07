@@ -9,8 +9,5 @@
         <module name="credible" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="credible" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
