@@ -62,6 +62,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/credible.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usa/web/pages/LoanPurposePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usa/web/pages/LoanPurposePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,6 +73,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/credible$_Users_alexander_workspace_credible_project_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1588874625889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="176" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-319099630">
@@ -114,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/usa/web/LoanPurposePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="467">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -123,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/usa/web/pages/LoanPurposePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="16" column="79" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="79" />
+            <state relative-caret-position="284">
+              <caret line="69" column="65" lean-forward="true" selection-start-line="69" selection-start-column="65" selection-end-line="69" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -132,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="453" selection-start-line="453" selection-end-line="453" />
+            <state relative-caret-position="113">
+              <caret line="452" selection-start-line="452" selection-end-line="452" />
             </state>
           </provider>
         </entry>
@@ -177,6 +181,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/usa/web/utils/CaptureScreenshots.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usa/web/pages/LoanPurposePage.java" />
       </list>
     </option>
   </component>
@@ -320,7 +325,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="captureScreenB&#9;PSI&#9;JAVA://com.usa.web.utils.CaptureScreenshots#captureScreenByte" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588876098950" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588876346381" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -371,10 +376,15 @@
     <history-entry file="_Users_alexander_workspace_credible_project_testng_xml - 2020.05.07 at 11h 22m 40s.xml">
       <configuration name="/Users/alexander/workspace/credible_project/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_alexander_workspace_credible_project_testng_xml - 2020.05.07 at 11h 27m 36s.xml">
+      <configuration name="/Users/alexander/workspace/credible_project/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_alexander_workspace_credible_project_testng_xml - 2020.05.07 at 11h 29m 24s.xml">
+      <configuration name="/Users/alexander/workspace/credible_project/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.273021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -387,11 +397,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.54452556" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44671533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
@@ -458,22 +468,22 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="453" selection-start-line="453" selection-end-line="453" />
+        <state relative-caret-position="113">
+          <caret line="452" selection-start-line="452" selection-end-line="452" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/usa/web/LoanPurposePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="467">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/usa/web/pages/LoanPurposePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="16" column="79" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="79" />
+        <state relative-caret-position="284">
+          <caret line="69" column="65" lean-forward="true" selection-start-line="69" selection-start-column="65" selection-end-line="69" selection-end-column="65" />
         </state>
       </provider>
     </entry>
