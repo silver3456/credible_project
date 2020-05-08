@@ -44,3 +44,4 @@ allure serve target/allure-results
 
 
 To install allure use this [link](https://docs.qameta.io/allure/#_installing_a_commandline)
+You can find the visualization of the report in this folder.
