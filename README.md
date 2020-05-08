@@ -10,6 +10,8 @@ Project requirements
 
 [Maven](https://maven.apache.org/download.cgi) of the latest version required for frontend assets generation 
 
+[Cucumber](https://cucumber.io/) Cucumber is a testing tool that supports Behavior Driven Development (BDD)
+
 [Allure](https://docs.qameta.io/allure/#_installing_a_commandline) Allure is used to generate HTML report for test build
 
 [Selenium](https://www.seleniumhq.org/) suite of tools to automate web browsers across many platforms
