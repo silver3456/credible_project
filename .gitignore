@@ -2,7 +2,10 @@
 *.iml.idea
 target/
 *.class
+*.log
 screenshots_failure/
 screenshots_success/
 allure-results/
-
+.project
+.settings/
+.classpath
