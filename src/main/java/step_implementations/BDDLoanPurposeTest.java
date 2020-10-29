@@ -54,7 +54,6 @@ public class BDDLoanPurposeTest {
 
     @And("^the user chooses education level$")
     public void the_user_chooses_education_level() throws InterruptedException {
-        System.out.println("the user chooses education level");
         String educationLevel = "High school";
         driver.findElement(By.xpath(String.format(COMMON_RADIOBUTTON_PATTERN, educationLevel))).click();
     }
@@ -86,7 +85,6 @@ public class BDDLoanPurposeTest {
 
     @And("^the user chooses Credit Score$")
     public void the_user_chooses_Credit_Score() throws InterruptedException {
-        System.out.println("the user chooses Credit Score");
         String creditScore = "Excellent (750+)";
         driver.findElement(By.xpath(String.format(COMMON_RADIOBUTTON_PATTERN, creditScore))).click();
     }
@@ -105,7 +103,6 @@ public class BDDLoanPurposeTest {
     public void the_user_enters_Date_Of_Birth() throws InterruptedException {
         driver.findElement(By.xpath(DOB_FIELD)).sendKeys("12181986");
         driver.findElement(By.xpath(CONTINUE_BUTTON)).click();
-        Thread.sleep(WAIT_TIME);
 
     }
 
